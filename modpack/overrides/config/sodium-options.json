@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "options": {
+    "quality": {
+      "weatherQuality": "FANCY",
+      "leavesQuality": "FANCY",
+      "enableVignette": false,
+      "mipmapLevels": 4,
+      "useBlockFaceColors": true
+    },
+    "performance": {
+      "chunkBuilderThreads": 0,
+      "animateOnlyVisibleTextures": true,
+      "useEntityCulling": true,
+      "useParticleCulling": true,
+      "useFogOcclusion": true,
+      "useCompactVertexFormat": true,
+      "useTranslucentFaceSorting": true,
+      "sortBehavior": "NEARBY"
+    },
+    "advanced": {
+      "enableMemoryTracing": false,
+      "useAdvancedStagingBuffers": true,
+      "cpuRenderAheadLimit": 3,
+      "allowDirectMemoryAccess": true
+    }
+  }
+}
